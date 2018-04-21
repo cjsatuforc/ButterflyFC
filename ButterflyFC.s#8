@@ -1013,11 +1013,13 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <pinref part="JP1" gate="A" pin="7"/>
 <wire x1="106.68" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 <label x="91.44" y="78.74" size="1.778" layer="95"/>
+<label x="149.86" y="104.14" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="N$1" class="0">
 <segment>
 <pinref part="DSM" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="93.98" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
-<label x="149.86" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

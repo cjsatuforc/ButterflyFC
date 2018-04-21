@@ -1086,20 +1086,6 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <wire x1="121.92" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3V3" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="7"/>
-<wire x1="106.68" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
-<label x="96.52" y="78.74" size="1.778" layer="95"/>
-<label x="149.86" y="104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="DSM" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="93.98" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="ESCMTR" gate="A" pin="1"/>
@@ -1112,6 +1098,18 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <pinref part="ESCMTR" gate="A" pin="2"/>
 <pinref part="JP2" gate="A" pin="3"/>
 <wire x1="134.62" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3V3" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="106.68" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
+<label x="96.52" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DSM" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<label x="147.32" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
