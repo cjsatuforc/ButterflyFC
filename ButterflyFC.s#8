@@ -907,7 +907,6 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ESC" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="DSM" library="jst" deviceset="B3B-ZR" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -919,7 +918,7 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <instance part="FRAME1" gate="V" x="109.22" y="-2.54"/>
 <instance part="JP1" gate="A" x="109.22" y="83.82"/>
 <instance part="JP2" gate="A" x="119.38" y="83.82" rot="MR0"/>
-<instance part="GND1" gate="1" x="96.52" y="78.74" rot="R180"/>
+<instance part="GND1" gate="1" x="88.9" y="73.66"/>
 <instance part="VIN" gate="VCC" x="96.52" y="73.66" rot="R90"/>
 <instance part="GND2" gate="1" x="129.54" y="71.12"/>
 <instance part="SBUS" gate="A" x="157.48" y="73.66"/>
@@ -927,18 +926,12 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <instance part="GND3" gate="1" x="142.24" y="60.96"/>
 <instance part="ESC" gate="A" x="137.16" y="86.36"/>
 <instance part="DSM" gate="G$1" x="157.48" y="91.44"/>
-<instance part="P+1" gate="VCC" x="149.86" y="106.68" rot="MR180"/>
 <instance part="GND4" gate="1" x="144.78" y="99.06" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="96.52" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="JP2" gate="A" pin="9"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -956,6 +949,11 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <wire x1="144.78" y1="96.52" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="88.9" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -968,11 +966,6 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <wire x1="137.16" y1="63.5" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="SBUS" gate="A" pin="2"/>
 <wire x1="137.16" y1="73.66" x2="154.94" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
-<pinref part="DSM" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="109.22" x2="149.86" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -1013,6 +1006,18 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <pinref part="ESC" gate="A" pin="3"/>
 <pinref part="JP2" gate="A" pin="4"/>
 <wire x1="121.92" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3V3" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="106.68" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
+<label x="91.44" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DSM" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="93.98" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
+<label x="149.86" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

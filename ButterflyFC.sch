@@ -1003,7 +1003,7 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <part name="ESCMTR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="DSM" library="jst" deviceset="B3B-ZR" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="ESCPWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="/90" package3d_urn="urn:adsk.eagle:package:22437/2"/>
+<part name="ESCPWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -1020,7 +1020,7 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <instance part="ESCMTR" gate="A" x="137.16" y="86.36"/>
 <instance part="DSM" gate="G$1" x="157.48" y="91.44"/>
 <instance part="GND4" gate="1" x="144.78" y="99.06" rot="R180"/>
-<instance part="ESCPWR" gate="G$1" x="86.36" y="73.66" rot="MR0"/>
+<instance part="ESCPWR" gate="G$1" x="86.36" y="76.2" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -1040,9 +1040,9 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="8"/>
-<pinref part="ESCPWR" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
 <label x="96.52" y="76.2" size="1.778" layer="95"/>
+<pinref part="ESCPWR" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -1054,9 +1054,9 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="9"/>
-<pinref part="ESCPWR" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
 <label x="96.52" y="73.66" size="1.778" layer="95"/>
+<pinref part="ESCPWR" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -1079,19 +1079,6 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <wire x1="121.92" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="121.92" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="2"/>
-<pinref part="ESCMTR" gate="A" pin="1"/>
-<wire x1="121.92" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="ESCMTR" gate="A" pin="3"/>
@@ -1111,6 +1098,20 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <segment>
 <pinref part="DSM" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="93.98" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="ESCMTR" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="134.62" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="ESCMTR" gate="A" pin="2"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="134.62" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
