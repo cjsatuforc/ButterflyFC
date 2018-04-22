@@ -621,7 +621,7 @@ design rules under a new name.</description>
 <element name="7" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X09" package3d_urn="urn:adsk.eagle:package:22483/2" value="" x="26.98" y="12.43" rot="R270"/>
 <element name="A0" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X09" package3d_urn="urn:adsk.eagle:package:22483/2" value="" x="12.1" y="12.32" rot="R270"/>
 <element name="DSM" library="jst" package="B3B-ZR" value="B3B-ZR" x="4.99" y="26.97" rot="R90"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="CREATIVE_COMMONS" package3d_urn="urn:adsk.eagle:package:37121/1" value="FRAME-LETTER" x="-80.01" y="1.27"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="CREATIVE_COMMONS" package3d_urn="urn:adsk.eagle:package:37121/1" value="FRAME-LETTER" x="-7.01" y="-10.73"/>
 <element name="MOTORS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="32.82" y="16.32" rot="R270"/>
 <element name="POWER" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="5.56" y="10.17" rot="R270"/>
 <element name="SBUS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="5.22" y="18.67" rot="R90"/>
