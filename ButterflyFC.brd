@@ -417,7 +417,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
 <text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by: Simon D. Levy</text>
 </package>
 </packages>
 <packages3d>

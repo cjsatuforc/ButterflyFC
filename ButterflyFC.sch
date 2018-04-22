@@ -244,7 +244,7 @@ FRAME-LETTER</description>
 <text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
 <text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Design by: Simon D. Levy</text>
 </symbol>
 </symbols>
 <devicesets>
