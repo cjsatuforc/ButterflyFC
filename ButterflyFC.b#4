@@ -148,8 +148,8 @@
 <wire x1="14" y1="46" x2="14" y2="10" width="0" layer="20"/>
 <hole x="17" y="43" drill="2"/>
 <hole x="47" y="43" drill="2"/>
-<hole x="49" y="13" drill="2"/>
-<hole x="16" y="13" drill="2"/>
+<hole x="47" y="13" drill="2"/>
+<hole x="17" y="13" drill="2"/>
 <text x="17" y="38" size="2" layer="21">Butterfly Flight Controller</text>
 <text x="23" y="12" size="1.778" layer="21">+</text>
 <text x="18" y="24" size="1.778" layer="21">+</text>
@@ -417,7 +417,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
 <text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by: Simon D. Levy</text>
 </package>
 </packages>
 <packages3d>

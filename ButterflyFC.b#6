@@ -150,7 +150,7 @@
 <hole x="47" y="43" drill="2"/>
 <hole x="49" y="13" drill="2"/>
 <hole x="16" y="13" drill="2"/>
-<text x="19" y="39" size="2" layer="21">Butterfly Flight Controller</text>
+<text x="17" y="38" size="2" layer="21">Butterfly Flight Controller</text>
 <text x="23" y="12" size="1.778" layer="21">+</text>
 <text x="16" y="24" size="1.778" layer="21">+</text>
 <text x="15" y="29" size="1" layer="21">GND</text>
