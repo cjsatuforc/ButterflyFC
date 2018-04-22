@@ -150,6 +150,7 @@
 <hole x="4" y="33" drill="2"/>
 <hole x="34" y="33" drill="2"/>
 <hole x="34" y="3" drill="2"/>
+<text x="15" y="2" size="1.778" layer="21">VIN</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">

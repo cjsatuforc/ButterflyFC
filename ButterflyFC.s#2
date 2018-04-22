@@ -1015,28 +1015,28 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <label x="96.52" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="M4" class="0">
 <segment>
 <pinref part="7" gate="A" pin="2"/>
 <pinref part="MOTORS" gate="A" pin="1"/>
 <wire x1="78.74" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="M3" class="0">
 <segment>
 <pinref part="7" gate="A" pin="3"/>
 <pinref part="MOTORS" gate="A" pin="2"/>
 <wire x1="78.74" y1="91.44" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="M2" class="0">
 <segment>
 <pinref part="7" gate="A" pin="4"/>
 <pinref part="MOTORS" gate="A" pin="3"/>
 <wire x1="78.74" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="M1" class="0">
 <segment>
 <pinref part="7" gate="A" pin="5"/>
 <pinref part="MOTORS" gate="A" pin="4"/>
