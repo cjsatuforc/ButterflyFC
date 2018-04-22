@@ -154,6 +154,7 @@
 <text x="23" y="12" size="1.778" layer="21">+</text>
 <text x="16" y="24" size="1.778" layer="21">+</text>
 <text x="15" y="29" size="1" layer="21">GND</text>
+<text x="50" y="21" size="1.4224" layer="21" font="fixed">1</text>
 </plain>
 <libraries>
 <library name="jst">
