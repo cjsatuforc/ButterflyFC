@@ -722,7 +722,7 @@ design rules under a new name.</description>
 <contactref element="A0" pad="7"/>
 <contactref element="DSM" pad="1"/>
 <wire x1="21.7424" y1="24.5872" x2="21.5392" y2="24.5872" width="0.2032" layer="1"/>
-<wire x1="28.0416" y1="18.288" x2="21.7424" y2="24.5872" width="0.2032" layer="1"/>
+<wire x1="28.0416" y1="18.288" x2="21.7424" y2="24.5872" width="0.254" layer="1"/>
 <wire x1="21.5392" y1="24.5872" x2="21.5" y2="24.79" width="0.2032" layer="1"/>
 <wire x1="28.0416" y1="18.288" x2="28.21" y2="18.21" width="0.2032" layer="1"/>
 </signal>
