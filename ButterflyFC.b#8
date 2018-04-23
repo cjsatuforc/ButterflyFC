@@ -157,6 +157,9 @@
 <text x="2.5" y="7.25" size="1.6764" layer="21">+</text>
 <text x="2.5" y="11" size="1.9304" layer="21">-</text>
 <text x="6.75" y="20.75" size="0.8128" layer="21">GND</text>
+<text x="29.75" y="14.5" size="1.6764" layer="21">2</text>
+<text x="29.75" y="17" size="1.6764" layer="21">3</text>
+<text x="29.75" y="19.25" size="1.6764" layer="21">4</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
