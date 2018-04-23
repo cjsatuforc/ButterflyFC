@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -150,7 +150,13 @@
 <hole x="4" y="33" drill="2"/>
 <hole x="34" y="33" drill="2"/>
 <hole x="34" y="3" drill="2"/>
-<text x="15" y="2" size="1.778" layer="21">VIN</text>
+<text x="14" y="1.5" size="0.8128" layer="21">VIN</text>
+<text x="23" y="1.5" size="0.8128" layer="21">GND</text>
+<text x="29.75" y="12" size="1.6764" layer="21">1</text>
+<text x="7.5" y="25" size="0.8128" layer="21">3.3V</text>
+<text x="2.5" y="7.25" size="1.6764" layer="21">+</text>
+<text x="2.5" y="11" size="1.9304" layer="21">-</text>
+<text x="6.75" y="20.75" size="0.8128" layer="21">GND</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
