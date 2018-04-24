@@ -160,6 +160,8 @@
 <text x="29.75" y="14.5" size="1.6764" layer="21">2</text>
 <text x="29.75" y="17" size="1.6764" layer="21">3</text>
 <text x="29.75" y="19.25" size="1.6764" layer="21">4</text>
+<text x="10.75" y="31.25" size="3.81" layer="21" font="vector">Butterfly</text>
+<text x="10.75" y="27.75" size="2.1844" layer="21" font="vector">Flight Controller</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">

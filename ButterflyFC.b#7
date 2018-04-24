@@ -146,8 +146,8 @@
 <wire x1="37.58" y1="0" x2="37.58" y2="37" width="0" layer="20"/>
 <wire x1="37.58" y1="37" x2="0.5" y2="37" width="0" layer="20"/>
 <wire x1="0.5" y1="37" x2="0.5" y2="0" width="0" layer="20"/>
-<hole x="4" y="2.75" drill="2"/>
-<hole x="4" y="33" drill="2"/>
+<hole x="3.75" y="2.75" drill="2"/>
+<hole x="3.75" y="33" drill="2"/>
 <hole x="34.25" y="33" drill="2"/>
 <hole x="34.25" y="2.75" drill="2"/>
 <text x="14" y="1.5" size="0.8128" layer="21">VIN</text>
